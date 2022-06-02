@@ -35,7 +35,10 @@ function productHandler(e) {
     '#images-container #content .one .image img',
   ).alt;
   let title = mainDiv.querySelector('.info-container > h1').textContent;
-  let size = mainDiv.querySelector('.info-container #text > span').textContent;
+  let size;
+  if (size) {
+    size = mainDiv.querySelector('.info-container #text > span').textContent;
+  }
   let price = +mainDiv.querySelector('.info-container .price > span')
     .textContent;
 
@@ -64,7 +67,7 @@ function saveCartNumbersInUI() {
   let numberOfProductsInCart = localStorage.getItem('numberOfProductsInCart');
   if (numberOfProductsInCart) {
     cartNumber.textContent = numberOfProductsInCart;
-    if(fixedNavCartNumber) {
+    if (fixedNavCartNumber) {
       fixedNavCartNumber.textContent = numberOfProductsInCart;
     }
   }
