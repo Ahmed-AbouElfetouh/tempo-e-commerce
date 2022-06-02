@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="TE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Shop Page</title>
+
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <link rel="stylesheet" href="assets/css/shop-page.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap">
+
+</head>
+
+<body>
+  <!-- Start Common Head -->
+  <div class="head">
+    <div class="container">
+      <div class="head-content">
+        <p>FREE SHIPPING OVER 599 EGP</p>
+      </div>
+    </div>
+  </div>
+  <!-- End Common Head -->
+  <!-- Start Main Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="#">
+            <img src="assets/images/Products/tempo-logo.webp" alt="Tempo Logo">
+          </a>
+        </div>
+        <nav>
+          <ul class="links" id="links">
+            <li><a href="#">HOME</a></li>
+            <li class="active show"><a href="#">SHOP</a>
+              <ul class="drop-menu">
+                <li><a href="#">SPORTSWEAR</a></li>
+                <li><a href="#">FOOTBALLS</a></li>
+                <li><a href="#">BAGS & ACCESSORIES</a></li>
+              </ul>
+            </li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">ABOUT US</a></li>
+          </ul>
+          <ul class="icons">
+            <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li class="the-cart special-cart-style">
+              <a href="#"><i class="fa-brands fa-opencart"></i></a>
+              <span class="number">0</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- End Main Header -->
+  <!-- Start Fixed Navbar -->
+  <div class="fixed-nav" id="fixed-nav">
+    <div class="nav-text" id="nav-text">
+      <div class="bars" id="bars">
+        <i class="fa-solid fa-bars-staggered"></i>
+        <p>MENU</p>
+      </div>
+      <div class="x-mark" id="x-mark">
+        <i class="fa-solid fa-x"></i>
+      </div>
+    </div>
+    <ul class="main-links" id="main-links">
+      <li><a href="#">HOME</a></li>
+      <div class="scroll-right">
+        <li><a href="#">SHOP</a></li>
+        <span id="scroll-right"><i class="fa-solid fa-angle-right"></i></span>
+      </div>
+      <li><a href="#">CONTACT US</a></li>
+      <li><a href="#">ABOUT US</a></li>
+    </ul>
+    <ul class="shop-slider" id="shop-slider">
+      <li>
+        <div class="head">
+          <span id="scroll-left"><i class="fa-solid fa-angle-left"></i></span>
+          <a href="#">SHOP</a>
+        </div>
+        <ul>
+          <li><a href="#">SPORTSWEAR</a></li>
+          <li><a href="#">FOOTBALLS</a></li>
+          <li><a href="#">BAGS & ACCESSORIES</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="sub-cart" id="sub-cart">
+      <span id="hide-cart" class="the-cart">
+        <i class="fa-brands fa-opencart"></i>
+        <span id="number" class="number">0</span>
+      </span>
+    </div>
+  </div>
+  <!-- End Fixed Navbar -->
+  <!-- Start The Cart -->
+  <div class="cart" id="cart">
+    <div class="pre-text" id="pre-text">
+      <p>
+        Your cart is currently empty. <br>
+        Continue browsing <a href="./index.html">here</a>
+      </p>
+    </div>
+    <div class="products-content">
+      <div class="cart-products"></div>
+      <div class="cart-subtotal-info"></div>
+    </div>
+    <div class="close-cart" id="close-cart">
+      <i class="fa-solid fa-x"></i>
+    </div>
+  </div>
+  <!-- End The Cart -->
+  <!-- Start Products Section "First-Page" -->
+  <section class="shop-items">
+    <div class="container">
+      <div class="all-content" id="all-content"></div>
+  </section>
+  <!-- End Products Section "First-Page" -->
+  <script src="assets/js/all.min.js"></script>
+  <script src="assets/js/variables.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/shop-page.js"></script>
+</body>
+
+</html>
