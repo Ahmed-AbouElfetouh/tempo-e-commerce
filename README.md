@@ -6,6 +6,7 @@
 
 #  Tempo E-Commerce
 So What you will find in my project? :
+
 1- All website's Products rendered by JavaScript.
 
 2- A Fixed Navbar appears when you scrolling to a specific position in Shop Page.
