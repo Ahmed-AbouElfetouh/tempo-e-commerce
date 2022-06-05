@@ -5,6 +5,8 @@
 
 
 #  Tempo E-Commerce
+I built this project using (HTML, CSS and JavaScript).
+
 So What you will find in my project? :
 
 1- All website's Products rendered by JavaScript.
@@ -27,9 +29,6 @@ So What you will find in my project? :
 
 10- Website is fully responsive by [Media Queries].
 
-## Tech Stack
-
-**Client:** HTML, CSS, Javascript.
 ## For Live Preview [Click Here](https://ahmed-abouelfetouh.github.io/tempo-e-commerce/)
 ## Challenges Screenshots
 ![shop-page.png](https://i.postimg.cc/KvSBFqyL/shop-page.png)
