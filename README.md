@@ -30,7 +30,7 @@ So What you will find in my project? :
 10- Website is fully responsive by [Media Queries].
 
 ## For Live Preview [Click Here](https://ahmed-abouelfetouh.github.io/tempo-e-commerce/)
-## Challenges Screenshots
+## Project Screenshots
 ![shop-page.png](https://i.postimg.cc/KvSBFqyL/shop-page.png)
 
 ![open-cart.png](https://i.postimg.cc/hPBzNX91/open-cart.png)
