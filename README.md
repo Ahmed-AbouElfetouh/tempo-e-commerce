@@ -9,7 +9,7 @@ I built this project using (HTML, CSS and JavaScript).
 
 So What you will find in my project? :
 
--All website's Products rendered by JavaScript.
+- All website's Products rendered by JavaScript.
 
 - A Fixed Navbar appears when you scroll to a specific position in Shop Page.
 
