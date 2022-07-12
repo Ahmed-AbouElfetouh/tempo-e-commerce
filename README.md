@@ -9,25 +9,26 @@ I built this project using (HTML, CSS and JavaScript).
 
 So What you will find in my project? :
 
-1- All website's Products rendered by JavaScript.
+-All website's Products rendered by JavaScript.
 
-2- A Fixed Navbar appears when you scrolling to a specific position in Shop Page.
+- A Fixed Navbar appears when you scroll to a specific position in Shop Page.
 
-3- When you click on every product will open another Page contains this product details.
+- When you click on every product it will open another Page containing this product details.
 
-4- when you click on (add to cart) button the cart will and this product will add to cart.
+- When you click on (add to cart) button the cart will and this product will add to cart.
 
-5- You can Decrease and Increase Products Quantity.
+- You can Decrease and Increase product Quantity.
 
-6- When you add the same product again his quantity in the cart will increase by one.
+- When you add the same product again his quantity in the cart will increase by one.
 
-7- When you Decrease and Increase Products Quantity the Subtotal changes as well.
+- When you Decrease and Increase product Quantity the Subtotal changes as well.
 
-8- You can remove the Product from cart when his quantity is less than zero.
+- You can remove the Product from the cart when his quantity is less than zero.
 
-9- All that operations saved at Local Storage.
+- All those operations saved at Local Storage.
 
-10- Website is fully responsive by [Media Queries].
+- Website is fully responsive by [Media Queries].
+
 
 ## For Live Preview [Click Here](https://ahmed-abouelfetouh.github.io/tempo-e-commerce/)
 ## Project Screenshots
